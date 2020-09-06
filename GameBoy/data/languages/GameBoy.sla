@@ -1,9 +1,10 @@
-<sleigh bigendian="false" align="1" uniqbase="0x4740">
+<sleigh version="2" bigendian="false" align="1" uniqbase="0x4740">
 <spaces defaultspace="ram">
-<space_unique name="unique" index="1" bigendian="false" delay="0" size="4" physical="true"/>
-<space name="ram" index="2" bigendian="false" delay="1" size="2" physical="true"/>
-<space name="io" index="3" bigendian="false" delay="1" size="2" physical="true"/>
-<space name="register" index="4" bigendian="false" delay="0" size="1" physical="true"/>
+<space_other name="OTHER" index="1" bigendian="false" delay="0" size="8" physical="false"/>
+<space_unique name="unique" index="2" bigendian="false" delay="0" size="4" physical="true"/>
+<space name="ram" index="3" bigendian="false" delay="1" size="2" physical="true"/>
+<space name="io" index="4" bigendian="false" delay="1" size="2" physical="true"/>
+<space name="register" index="5" bigendian="false" delay="0" size="1" physical="true"/>
 </spaces>
 <symbol_table scopesize="182" symbolsize="356">
 <scope id="0x0" parent="0x0"/>
